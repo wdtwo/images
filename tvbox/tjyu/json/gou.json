@@ -1,0 +1,633 @@
+{
+    "sites": [
+        {"key":"酷影",
+        "name":"酷影┃影视",
+        "type":3,"api":"http://ck.realdou.cn/JS/lib/drpy2.min.js",
+        "searchable":1,
+        "quickSearch":1,
+        "filterable":1,
+        "ext":"http://ck.realdou.cn/JS/js/酷影蓝光.js"},
+        {
+            "key": "豆瓣",
+            "name": "🅱 豆瓣",
+            "type": 3,
+            "api": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+            "ext": "https://jihulab.com/duomv/duox/-/raw/main/js/douban.js",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0
+        },
+        {
+            "key": "量子资源",
+            "name": "🔊 量子",
+            "type": 1,
+            "api": "https://cj.lziapi.com/api.php/provide/vod/",
+            "categories": [
+                "动作片",
+                "喜剧片",
+                "爱情片",
+                "科幻片",
+                "恐怖片",
+                "剧情片",
+                "战争片",
+                "国产剧",
+                "香港剧",
+                "韩国剧",
+                "欧美剧",
+                "台湾剧",
+                "日本剧",
+                "海外剧",
+                "泰国剧",
+                "大陆综艺",
+                "港台综艺",
+                "日韩综艺",
+                "欧美综艺",
+                "国产动漫",
+                "日韩动漫",
+                "欧美动漫",
+                "港台动漫",
+                "海外动漫",
+                "记录片",
+                "伦理片"
+            ]
+        },
+        {
+            "key": "非凡资源",
+            "name": "️🚀 非凡",
+            "type": 1,
+            "api": "https://cj.ffzyapi.com/api.php/provide/vod/",
+            "categories": [
+                "动作片",
+                "喜剧片",
+                "爱情片",
+                "科幻片",
+                "恐怖片",
+                "剧情片",
+                "战争片",
+                "国产剧",
+                "香港剧",
+                "韩国剧",
+                "欧美剧",
+                "台湾剧",
+                "日本剧",
+                "海外剧",
+                "泰国剧",
+                "大陆综艺",
+                "港台综艺",
+                "日韩综艺",
+                "欧美综艺",
+                "国产动漫",
+                "日韩动漫",
+                "欧美动漫",
+                "港台动漫",
+                "海外动漫",
+                "记录片",
+                "伦理片"
+            ]
+        },
+        {
+            "key": "暴风资源",
+            "name": "🌪 暴风",
+            "type": 1,
+            "api": "https://bfzyapi.com/api.php/provide/vod/",
+            "categories": [
+                "动作片",
+                "喜剧片",
+                "恐怖片",
+                "科幻片",
+                "爱情片",
+                "剧情片",
+                "战争片",
+                "国产剧",
+                "欧美剧",
+                "香港剧",
+                "韩国剧",
+                "台湾剧",
+                "日本剧",
+                "海外剧",
+                "泰国剧",
+                "国产动漫",
+                "日韩动漫",
+                "欧美动漫",
+                "港台动漫",
+                "海外动漫",
+                "大陆综艺",
+                "港台综艺",
+                "日韩综艺",
+                "欧美综艺",
+                "动画片",
+                "纪录片",
+                "理论片"
+            ]
+        },
+        {
+            "key": "索尼资源",
+            "name": "➰ 索尼",
+            "type": 1,
+            "api": "https://suoniapi.com/api.php/provide/vod/",
+            "categories": [
+                "动作片",
+                "喜剧片",
+                "爱情片",
+                "科幻片",
+                "恐怖片",
+                "剧情片",
+                "战争片",
+                "国产剧",
+                "欧美剧",
+                "韩剧",
+                "日剧",
+                "港剧",
+                "台剧",
+                "泰剧",
+                "海外剧",
+                "大陆综艺",
+                "日韩综艺",
+                "港台综艺",
+                "欧美综艺",
+                "国产动漫",
+                "日韩动漫",
+                "欧美动漫",
+                "港台动漫",
+                "海外动漫",
+                "动画片",
+                "纪录片",
+                "伦理片"
+            ]
+        },
+        {
+            "key": "快帆资源",
+            "name": "⛵ 快帆",
+            "type": 1,
+            "api": "https://api.kuaifan.tv/api.php/provide/vod/",
+            "categories": [
+                "动作片",
+                "喜剧片",
+                "爱情片",
+                "科幻片",
+                "恐怖片",
+                "剧情片",
+                "战争片",
+                "惊悚片",
+                "家庭片",
+                "古装片",
+                "历史片",
+                "悬疑片",
+                "犯罪片",
+                "灾难片",
+                "国产剧",
+                "香港剧",
+                "韩国剧",
+                "欧美剧",
+                "台湾剧",
+                "日本剧",
+                "海外剧",
+                "泰国剧",
+                "大陆综艺",
+                "港台综艺",
+                "日韩综艺",
+                "欧美综艺",
+                "国产动漫",
+                "欧美动漫",
+                "日本动漫",
+                "动画片",
+                "记录片",
+                "伦理片"
+            ]
+        },
+        {
+            "key": "飘零影院",
+            "name": "🪁 飘零",
+            "type": 1,
+            "api": "https://p2100.net/api.php/provide/vod/",
+            "categories": [
+                "动作片",
+                "喜剧片",
+                "爱情片",
+                "科幻片",
+                "恐怖片",
+                "剧情片",
+                "战争片",
+                "国产剧",
+                "香港剧",
+                "台湾剧",
+                "日本剧",
+                "韩国剧",
+                "欧美剧",
+                "海外剧",
+                "邵氏大片",
+                "动漫电影",
+                "纪录片",
+                "理论片"
+            ]
+        },
+        {
+            "key": "爱看影院",
+            "name": "🧡 爱看",
+            "type": 1,
+            "api": "https://ikunzyapi.com/api.php/provide/vod/",
+            "categories": [
+                "动作片",
+                "喜剧片",
+                "爱情片",
+                "科幻片",
+                "恐怖片",
+                "剧情片",
+                "战争片",
+                "惊悚片",
+                "家庭片",
+                "古装片",
+                "历史片",
+                "悬疑片",
+                "犯罪片",
+                "灾难片",
+                "国产剧",
+                "香港剧",
+                "韩国剧",
+                "欧美剧",
+                "台湾剧",
+                "日本剧",
+                "海外剧",
+                "泰国剧",
+                "大陆综艺",
+                "港台综艺",
+                "日韩综艺",
+                "欧美综艺",
+                "国产动漫",
+                "欧美动漫",
+                "日本动漫",
+                "动画片",
+                "记录片",
+                "伦理片"
+            ]
+        },
+        {
+            "key": "秒看资源",
+            "name": "⏱️ 秒看",
+            "type": 1,
+            "api": "https://www.xy1080.net/api.php/provide/vod/",
+            "categories": [
+                "电影",
+                "电视剧",
+                "动漫",
+                "综艺"
+            ]
+        },
+        {
+            "key": "快看影视",
+            "name": "👀 快看",
+            "type": 3,
+            "api": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodOpen/main/open/kkys_open.js"
+        },
+        {
+            "key": "酷云七七",
+            "name": "🌈 七七",
+            "type": 3,
+            "api": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/酷云77.js"
+        },
+        {
+            "key": "低端",
+            "name": "♻️ 低端",
+            "type": 3,
+            "api": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/ddys.js"
+        },
+        {
+            "key": "秋霞影视",
+            "name": "🍂 秋霞",
+            "type": 3,
+            "api": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/秋霞.js"
+        },
+        {
+            "key": "可乐",
+            "name": "📕 可乐",
+            "type": 3,
+            "api": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/cokemv.js"
+        },
+        {
+            "key": "在线",
+            "name": "📗 在线",
+            "type": 3,
+            "api": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/在线之家.js"
+        },
+        {
+            "key": "比特",
+            "name": "🍄 比特",
+            "type": 3,
+            "api": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/两个BT.js"
+        },
+        {
+            "key": "利播",
+            "name": "🌟 利播",
+            "type": 3,
+            "api": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/LIBVIO.js"
+        },
+        {
+            "key": "维夫",
+            "name": "🎈 维夫",
+            "type": 3,
+            "api": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/voflix.js"
+        },
+        {
+            "key": "新6V",
+            "name": "🧲 磁力",
+            "type": 3,
+            "api": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/6V新版[磁].js"
+        },
+        {
+            "key": "凌云影视",
+            "name": "☁ 凌云",
+            "type": 3,
+            "api": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/凌云影视.js"
+        },
+        {
+            "key": "子子影视",
+            "name": "🌰 子子",
+            "type": 3,
+            "api": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/子子影视.js"
+        },
+        {
+            "key": "孜然影视",
+            "name": "🥩 孜然",
+            "type": 3,
+            "api": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/孜然影视.js"
+        },
+        {
+            "key": "西瓜影院",
+            "name": "🍉 西瓜",
+            "type": 3,
+            "api": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/西瓜影院.js"
+        },
+        {
+            "key": "素白白",
+            "name": "🥬 素白",
+            "type": 3,
+            "api": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/素白白.js"
+        },
+        {
+            "key": "欧帝影院",
+            "name": "🏰 欧帝️",
+            "type": 3,
+            "api": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/欧帝影院.js"
+        },
+        {
+            "key": "乐鱼影视",
+            "name": "🐟 乐鱼",
+            "type": 3,
+            "api": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/乐鱼影视.js"
+        },
+        {
+            "key": "零度影视",
+            "name": "🌡 零度",
+            "type": 3,
+            "api": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/零度影视.js"
+        },
+        {
+            "key": "新视觉",
+            "name": "👓 视觉",
+            "type": 3,
+            "api": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/新视觉影视.js"
+        },
+        {
+            "key": "酷客影院",
+            "name": "🕶 酷客",
+            "type": 3,
+            "api": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/酷客影院.js"
+        },
+        {
+            "key": "优酷",
+            "name": "🍊 优酷",
+            "type": 3,
+            "api": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/优酷.js"
+        },
+        {
+            "key": "腾讯",
+            "name": "🐧 腾讯",
+            "type": 3,
+            "api": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/腾云驾雾.js"
+        },
+        {
+            "key": "爱奇艺",
+            "name": "🥝 奇艺",
+            "type": 3,
+            "api": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/奇珍异兽.js"
+        },
+        {
+            "key": "芒果",
+            "name": "🥭 芒果",
+            "type": 3,
+            "api": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/百忙无果.js"
+        },
+        {
+            "key": "樱花动漫",
+            "name": "💮 樱花",
+            "type": 3,
+            "api": "csp_Ying"
+        },
+        {
+            "key": "动漫巴士",
+            "name": "🚌 巴士",
+            "type": 3,
+            "api": "csp_Dm84"
+        },
+        {
+            "key": "异界动漫",
+            "name": "🎀 异界",
+            "type": 3,
+            "api": "csp_Ysj"
+        },
+        {
+            "key": "本地",
+            "name": "🖥️ 本地",
+            "type": 3,
+            "api": "csp_Local"
+        },
+        {
+            "key": "网盘",
+            "name": "🗂 网盘",
+            "type": 3,
+            "api": "csp_AList",
+            "ext": {
+                "drives": [
+                    {
+                        "name": "🧚‍ 丫仙女",
+                        "server": "http://cdtyk.com:6789"
+                    },
+                    {
+                        "name": "🐋 七米蓝",
+                        "server": "https://al.chirmyram.com"
+                    },
+                    {
+                        "name": "👙‍ 杜比",
+                        "server": "https://dubi.tk"
+                    },
+                    {
+                        "name": "✨ 星梦",
+                        "server": "https://pan.bashroot.top"
+                    }
+                ]
+            }
+        },
+        {
+            "key": "玩偶哥哥",
+            "name": "👽 玩偶",
+            "type": 3,
+            "api": "csp_Wogg",
+            "ext": {
+                "token": "./ali.token",
+                "filter": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/wogg.json"
+            }
+        },
+        {
+            "key": "纸条",
+            "name": "📜 纸条",
+            "type": 3,
+            "api": "csp_XiaoZhiTiao",
+            "ext": "./ali.token"
+        },
+        {
+            "key": "七夜",
+            "name": "😾 七夜",
+            "type": 3,
+            "api": "csp_Dovx",
+            "ext": "./ali.token"
+        },
+        {
+            "key": "阿里盘搜",
+            "name": "🦌 盘搜",
+            "type": 3,
+            "api": "csp_PanSou",
+            "ext": "./ali.token"
+        },
+        {
+            "key": "PanSearch",
+            "name": "🙀 盘搜",
+            "type": 3,
+            "api": "csp_PanSearch",
+            "ext": "./ali.token"
+        },
+        {
+            "key": "阿里云搜",
+            "name": "☁️ 云搜",
+            "type": 3,
+            "api": "csp_UpYun",
+            "ext": "./ali.token"
+        }
+    ],
+    "lives": [
+        {
+            "name": "本地",
+            "type": 0,
+            "playerType": 1,
+            "ua": "okhttp/4.11.0",
+            "url": "./live/iptv.txt",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "南风",
+            "type": 0,
+            "url": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "明明",
+            "type": 0,
+            "url": "https://ghproxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/global.m3u",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        }
+    ],
+     "parses": [
+    {"name": "解析聚合","type": 3,"url": "Web"},
+    {"name": "777","type": 0,"url": "https://jx.777jiexi.com/player/?url="},
+    {"name": "jsonplayer","type": 0,"url": "https://jx.jsonplayer.com/player/?url="}
+  ],
+    "rules": [
+        {
+            "name": "暴風",
+            "hosts": [
+                "bfzy"
+            ],
+            "regex": [
+                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+            ]
+        },
+        {
+            "name": "星星",
+            "hosts": [
+                "aws.ulivetv.net"
+            ],
+            "regex": [
+                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+            ]
+        },
+        {
+            "name": "量子",
+            "hosts": [
+                "vip.lz",
+                "hd.lz",
+                "v.cdnlz"
+            ],
+            "regex": [
+                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+                "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
+            ]
+        },
+        {
+            "name": "非凡",
+            "hosts": [
+                "vip.ffzy",
+                "hd.ffzy"
+            ],
+            "regex": [
+                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+                "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
+            ]
+        },
+        {
+            "name": "火山嗅探",
+            "hosts": [
+                "huoshan.com"
+            ],
+            "regex": [
+                "item_id="
+            ]
+        },
+        {
+            "name": "抖音嗅探",
+            "hosts": [
+                "douyin.com"
+            ],
+            "regex": [
+                "is_play_url="
+            ]
+        }
+    ],
+    "spider": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar",
+    "wallpaper": "https://bing.img.run/rand.php"
+}
