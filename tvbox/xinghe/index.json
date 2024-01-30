@@ -3954,11 +3954,10 @@
 		"ext": "3781469b13074e4cac1e0e7113e4fa20"
 	}],
 	"lives": [{
-        "url":"./live.txt",
 		"group": "redirect",
 		"channels": [{
 			"name": "live",
-			"urls": ["proxy://do=live&type=txt&ext=aHR0cHM6Ly9hZ2l0LmFpLzEzODAwMTM4MDAwMC9NSFFUVi9yYXcvYnJhbmNoL21hc3Rlci9UVi9saXZlLnR4dA=="]
+			"urls": ["./live.txt"]
 		}]
 	}],
 	"parses": [{
